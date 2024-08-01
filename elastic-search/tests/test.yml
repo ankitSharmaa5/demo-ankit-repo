@@ -1,0 +1,6 @@
+---
+- hosts: server1
+  become: yes
+  gather_facts: yes
+  roles:
+    - /home/naresh/kibana-tool/tool-role/elastic-search
